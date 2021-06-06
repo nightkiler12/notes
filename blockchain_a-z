@@ -1,1 +1,29 @@
-kuu
+++ Blockchain Intuition ++
+
+>> What is a BlockChain? <<
+- a block chain is a countiously growing list of records called blocks, which are linked and secured with crptography
+- a block(record) 1.Data: "Hello World", 2.Prev.Hash:22131DW, 3.Hash:DW2131WD
+- first block is the genesis block which ahs no previous hash.
+- the records are linked with the prev.hash
+- words to know Mining, Consensus Protocal, Hash Cryptography, Distributed P2P Network, Immutable Ledger
+
+>> Understanding Sha56 Hash <<
+- NSA made SHA56 Hash
+- 64 character works with anything digital 
+-- Five Requirements for Hash algorithims --
+- 1. One Way= can't go backwards to find information
+- 2. Deterministic= get the exact same result
+- 3. Fast Computation
+- 4. The Avalanche Effect= even if a single piece of the data is change the hash will change completely
+- 5. Must withstand collisons= (Pigeon hole principle- very unlikely) - avoid artifical collisions not natural (like if someone got the same data on personal information)
+
+>> Immutable Ledger <<
+- Traditional Ledger= basically written on paper like a deed and if the government has an error in the regristration you basically don't own the house even if you have the deed
+- a immutable ledger is basically when you try to temper with information in a blockchain and you can't because it would be to difficult
+- the more time passees the harder it is to change
+
+>> Distributed P2P Network <<
+- all computers on the blockahin are interconnected and blockchain are copied to all computers on the network
+- basically in a p2p if a hacker changes your blockchain on your blockchain will change back beacuse it checks with other blockhains on other computers and if its different it will change
+
+>> 
