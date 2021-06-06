@@ -26,4 +26,28 @@
 - all computers on the blockahin are interconnected and blockchain are copied to all computers on the network
 - basically in a p2p if a hacker changes your blockchain on your blockchain will change back beacuse it checks with other blockhains on other computers and if its different it will change
 
->> 
+>> How Mining Works <<
+-- Nonce --
+- Nonce is gives extra control over hash value (avalanche effect)
+-- Cryptographic Puzzle --
+- a hash a number or hexadecimal number and is always 64 characters
+- there is a target set to solve for a hash and should be solved which is basically created just for miners
+- basically miners change the nonce till they can give a block that is below the target or on the target
+
+>> Byzantine Fault Tolerance <<
+- four knights and a castle example with one person being a traitor no more than 1/3 can be a traitor for this algorithim to work
+- there is no solution if there are two traitors
+- very huge in cryptography
+
+>> Consensus Protocal Defense Against Attackers <<
+-- Challenge 1 Attacker --
+- multiple consensus protocals POW(Proof of Work), POS(Proof of Stake), Other
+- financial incentive for minersr to mine and to play fair because they worked hard for it
+- there are also numerous checks for miners before the blockchain accepts the block
+- cryptographic puzzles hard to solve - easy to vertify
+-- Challenge 2 Competing Chains --
+- when people mine the same block at the same time
+- thats when the byzantine fault tolerance comes into play the network with more hash rate or the longer network will get the block if the there are multiple networks competing or (50% hash power)
+- coinbase is where the money originates
+
+
