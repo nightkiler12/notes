@@ -1,0 +1,18 @@
+Section 4 Network Refresher
+
+#Bits and bites
+128 64 32 16 8 4 2 1 == 255
+1   1   1  1 1 1 1 1  
+
+Layer 3 is Router/Ip Addresses
+
+MAC/Media Access Control:
+Uses Layer 2 or switches
+Mac Addresses has identifiers first 3 XX:XX:XX
+
+Layer 4 Transport:
+TCP - Reliability
+UDP - VOIP
+Three Way Handshake = SYN -> SYNACK > ACK
+
+
