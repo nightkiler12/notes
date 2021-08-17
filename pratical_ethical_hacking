@@ -15,4 +15,16 @@ TCP - Reliability
 UDP - VOIP
 Three Way Handshake = SYN -> SYNACK > ACK
 
+Common Ports And Protocals(TCP and UDP)
+https://www.pearsonitcertification.com/articles/article.aspx?p=1868080
 
+The OSI Model
+Please Do Not Throw Sausuage Pizza Away
+1.Physical - data,cables, cat6
+2.Data - Switching, MAC addresses
+3.Network - IP Adresses, routing
+4.Transport - TCP/UCP
+5.Session - session management
+6.Presentation - WMV, JPEG, MOV
+7.Application - HTTP, SMTP
+Also best way to troubleshoot
